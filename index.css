@@ -1,0 +1,112 @@
+* {
+  /*background-color: rgba(0, 0, 0, 0.1);*/
+}
+
+body {
+  margin: 0 auto
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  position: fixed;
+  background-color: #EAEBED;
+  width: 100vw;
+}
+
+.nav-btn {
+  padding: 10px;
+}
+
+a.nav-btn {
+  text-decoration: none;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a.nav-btn:hover {
+  color: #D79021;
+}
+
+.flex-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+
+.parallax {
+  background-image: url("./img/unsplash-pineapple-supply-co.jpg");
+  /*Photo by Pineapple Supply Co. on Unsplash*/
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about>h1, h3 {
+  text-align: center;
+}
+
+.about {
+  background-color: #8EAE95;
+  color: #EAEBED;
+  padding: 25px 0 25px 0;
+}
+
+.text {
+  max-width: 95%;
+  padding: 0 30px 0 30px;
+}
+
+.portfolio {
+  text-align: center;
+  background-color: #EAEBED;
+  width: 100%;
+  padding: 25px 0 25px 0;
+}
+
+.contact {
+  background-color: #D79021;
+  color: #EAEBED;
+  text-align: center;
+  width: 100vw;
+  padding: 25px 0 25px 0;
+}
+
+#linked-in, #github, #twitter {
+  font-size: 2.5em;
+  text-decoration: none;
+  color: #EAEBED;
+  padding: 10px;
+}
+
+#linked-in:hover, #github:hover, #twitter:hover {
+  color: #8EAE95;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h3, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.separator-light {
+  border-top: solid 5px #EAEBED;
+  color: #EAEBED;
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.separator-dark {
+  border-top: solid 5px black;
+  color: black;
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 15px;
+}
