@@ -1,8 +1,6 @@
 * {
   /*background-color: rgba(0, 0, 0, 0.1);*/
-}
-
-body {
+  box-sizing: border-box;
   margin: 0 auto
 }
 
@@ -46,7 +44,7 @@ a.nav-btn:hover {
   background-size: cover;
 }
 
-.about>h1, h3 {
+.about>h1, h3, .interests h1 {
   text-align: center;
 }
 
@@ -58,7 +56,14 @@ a.nav-btn:hover {
 
 .text {
   max-width: 95%;
-  padding: 0 30px 0 30px;
+  padding: 0 50px 0 50px;
+}
+
+.interests {
+  background-color: purple;
+  color: #EAEBED;
+  width: 100vw;
+  padding: 25px 0 25px 10px;
 }
 
 .portfolio {
@@ -75,6 +80,7 @@ a.nav-btn:hover {
   width: 100vw;
   padding: 25px 0 25px 0;
 }
+
 
 #linked-in, #github, #twitter {
   font-size: 2.5em;
@@ -109,4 +115,25 @@ h3, p {
   max-width: 250px;
   margin: 0 auto;
   padding: 15px;
+}
+
+/* Page Load Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn .5s ease-in;
+  animation-fill-mode: forwards;
+  animation-duration: .5s;
+}
+
+.fade-in {
+  animation-delay: 1s;
 }
